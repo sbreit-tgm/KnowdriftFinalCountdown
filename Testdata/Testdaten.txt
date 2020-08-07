@@ -1,0 +1,256 @@
+{
+  "CommandID": 0,
+  "Name": "Initializing Gripper",
+  "CRCLCommand": "SetEndEffector",
+  "CRCLParam": {
+    "Setting": 0
+  }
+}
+{
+  "CommandID": 1,
+  "Name": "Moving to :Pose_REL1",
+  "CRCLCommand": "MoveTo",
+  "CRCLParam": {
+    "Straigt": false,
+    "Pose": {
+      "X": 14,
+      "Y": 16,
+      "Z": 18,
+      "A": 0,
+      "B": 0,
+      "C": 0
+    }
+  }
+}
+{
+  "CommandID": 2,
+  "Name": "Picking :Part_REL1",
+  "CRCLCommand": "SetEndEffector",
+  "CRCLParam": {
+    "Setting": 1
+  }
+}
+{
+  "CommandID": 3,
+  "Name": "Using :VacuumGripper_4mm",
+  "CRCLCommand": "SetEndEffectorParameter",
+  "CRCLParam": {
+    "Setting": "4"
+  }
+}
+{
+  "CommandID": 4,
+  "Name": "Moving to :Pose_C1",
+  "CRCLCommand": "MoveTo",
+  "CRCLParam": {
+    "Straigt": false,
+    "Pose": {
+      "X": 14,
+      "Y": 16,
+      "Z": 16,
+      "A": 0,
+      "B": 0,
+      "C": 0
+    }
+  }
+}
+{
+  "CommandID": 5,
+  "Name": "Picking :Part_C1",
+  "CRCLCommand": "SetEndEffector",
+  "CRCLParam": {
+    "Setting": 1
+  }
+}
+{
+  "CommandID": 6,
+  "Name": "Moving to :Pose_C1_Goal",
+  "CRCLCommand": "MoveTo",
+  "CRCLParam": {
+    "Straigt": false,
+    "Pose": {
+      "X": 38,
+      "Y": 40,
+      "Z": 42,
+      "A": 0,
+      "B": 0,
+      "C": 0
+    }
+  }
+}
+{
+  "CommandID": 7,
+  "Name": "Dropping :Part_C1",
+  "CRCLCommand": "SetEndEffector",
+  "CRCLParam": {
+    "Setting": 0
+  }
+}
+{
+  "CommandID": 8,
+  "Name": "Moving to :Pose_KL1",
+  "CRCLCommand": "MoveTo",
+  "CRCLParam": {
+    "Straigt": false,
+    "Pose": {
+      "X": 38,
+      "Y": 40,
+      "Z": 42,
+      "A": 0,
+      "B": 0,
+      "C": 0
+    }
+  }
+}
+{
+  "CommandID": 9,
+  "Name": "Picking :Part_KL1",
+  "CRCLCommand": "SetEndEffector",
+  "CRCLParam": {
+    "Setting": 1
+  }
+}
+{
+  "CommandID": 10,
+  "Name": "Moving to :Pose_KL1_Goal",
+  "CRCLCommand": "MoveTo",
+  "CRCLParam": {
+    "Straigt": false,
+    "Pose": {
+      "X": 32,
+      "Y": 19,
+      "Z": 21,
+      "A": 0,
+      "B": 0,
+      "C": 0
+    }
+  }
+}
+{
+  "CommandID": 11,
+  "Name": "Dropping :Part_KL1",
+  "CRCLCommand": "SetEndEffector",
+  "CRCLParam": {
+    "Setting": 0
+  }
+}
+{
+  "CommandID": 12,
+  "Name": "Moving to :Pose_KL2",
+  "CRCLCommand": "MoveTo",
+  "CRCLParam": {
+    "Straigt": false,
+    "Pose": {
+      "X": 29,
+      "Y": 31,
+      "Z": 33,
+      "A": 0,
+      "B": 0,
+      "C": 0
+    }
+  }
+}
+{
+  "CommandID": 13,
+  "Name": "Picking :Part_KL2",
+  "CRCLCommand": "SetEndEffector",
+  "CRCLParam": {
+    "Setting": 1
+  }
+}
+{
+  "CommandID": 14,
+  "Name": "Moving to :Pose_KL2_Goal",
+  "CRCLCommand": "MoveTo",
+  "CRCLParam": {
+    "Straigt": false,
+    "Pose": {
+      "X": 17,
+      "Y": 19,
+      "Z": 21,
+      "A": 0,
+      "B": 0,
+      "C": 0
+    }
+  }
+}
+{
+  "CommandID": 15,
+  "Name": "Dropping :Part_KL2",
+  "CRCLCommand": "SetEndEffector",
+  "CRCLParam": {
+    "Setting": 0
+  }
+}
+{
+  "CommandID": 16,
+  "Name": "Moving to :Pose_KL4",
+  "CRCLCommand": "MoveTo",
+  "CRCLParam": {
+    "Straigt": false,
+    "Pose": {
+      "X": 8,
+      "Y": 10,
+      "Z": 12,
+      "A": 0,
+      "B": 0,
+      "C": 0
+    }
+  }
+}
+{
+  "CommandID": 17,
+  "Name": "Picking :Part_KL4",
+  "CRCLCommand": "SetEndEffector",
+  "CRCLParam": {
+    "Setting": 1
+  }
+}
+{
+  "CommandID": 18,
+  "Name": "Moving to :Pose_KL4_Goal",
+  "CRCLCommand": "MoveTo",
+  "CRCLParam": {
+    "Straigt": false,
+    "Pose": {
+      "X": 35,
+      "Y": 37,
+      "Z": 39,
+      "A": 0,
+      "B": 0,
+      "C": 0
+    }
+  }
+}
+{
+  "CommandID": 19,
+  "Name": "Dropping :Part_KL4",
+  "CRCLCommand": "SetEndEffector",
+  "CRCLParam": {
+    "Setting": 0
+  }
+}
+{
+  "CommandID": 20,
+  "Name": "Moving to :Pose_REL1_Goal",
+  "CRCLCommand": "MoveTo",
+  "CRCLParam": {
+    "Straigt": false,
+    "Pose": {
+      "X": 17,
+      "Y": 19,
+      "Z": 21,
+      "A": 0,
+      "B": 0,
+      "C": 0
+    }
+  }
+}
+{
+  "CommandID": 21,
+  "Name": "Dropping :Part_REL1",
+  "CRCLCommand": "SetEndEffector",
+  "CRCLParam": {
+    "Setting": 0
+  }
+}
